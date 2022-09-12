@@ -1,0 +1,7 @@
+//-------- abstracts ------------//
+@use './Styles/abstracts/variables';
+@use './Styles/abstracts/mixins';
+
+//----------- base --------------//
+@use './Styles/base/base';
+@use './Styles/base/resets';

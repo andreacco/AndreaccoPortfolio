@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import NavBar from './Components/Static/English/NavBar/NavBar'
 import AboutMe from './Components/Static/English/AboutMe/AboutMe'
 import Home from './Components/Static/English/Home/Home'
