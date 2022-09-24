@@ -3,8 +3,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 35px;
+    margin-left: 80px;
     .Welcome-information-text{
+        .img {
+            position: relative;
+        }
         img.welcome-img {
             z-index: 1;
             float: right;
@@ -15,21 +18,83 @@
             flex-direction: column;
             justify-content: space-between;
             height: 60vh;
-        }
-        .circle-number-one {
-            width: 100px;
-            height: 100px;
-            -moz-border-radius: 50%;
-            -webkit-border-radius: 50%;
-            border-radius: 50%;
-            background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
-            transition: all .5s ease-in-out;
-            animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+            .first-Line {
+                font-style: normal;
+                font-size: 30px;
+                color: #3F00B5;
+                font-weight: bold;
+            }
+            h1 {
+                font-size: 60px;
+            }
+            h3 {
+                font-size: 35px;
+            }
+            .wrapper {
+                display: flex;
+                .static-text {
+                    font-size: 30px;
+                    font-weight: 400;
+                }
+            }
+            .dinamic-texts {
+                margin-left: 15px;
+                line-height: 40px;
+                height: 40px;
+                overflow: hidden;
+                li {
+                    list-style: none;
+                    color: #3F00B5;
+                    font-size: 30px;
+                    font-weight: bold;
+                    position: relative;
+                    top: 0;
+                    animation: slide 15s steps(5)infinite;
+                }
+                @keyframes slide {
+                    100% {
+                        top: -200px;
+                    }
+                }
+            }
+            .dinamic-texts li::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background: var(--background);
+                border-left: 2px solid #3F00B5;
+                animation: typing 3s steps(8)infinite;
+            }
+            @keyframes typing {
+                40%,
+                60% {
+                    left: calc(100% + 20px);
+                }
+                100% {
+                    left: 0;
+                }
+            }
         }
     }
 }
 
+svg {
+    position: absolute;
+}
 
+.blob {
+    width: 40%;
+    height: 85%;
+    position: absolute;
+    background: conic-gradient(from 180deg at 53.58% 49.01%, #3F00B5 0deg, #27C8B7 133.12deg, #9F69FE 228.75deg, #3F00B5 360deg);
+    clip-path: url(#clip);
+    margin-left: 60%;
+    z-index: 0;
+}
+
+// conic-gradient(from 180deg at 53.58% 49.01%, #3F00B5 0deg, #27C8B7 133.12deg, #9F69FE 228.75deg, #3F00B5 360deg);
 // span
 // p
 // h1
@@ -55,8 +120,8 @@ button {
     text-decoration: none;
     position: relative;
     font-family: inherit;
-    width: 7em;
-    height: 1em;
+    width: 15em;
+    height: 6em;
     line-height: 2px;
     text-align: center;
     z-index: 1;

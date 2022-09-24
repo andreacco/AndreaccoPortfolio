@@ -5,17 +5,52 @@ export default function Welcome() {
   return (
     <section className="Welcome-div">
       <div className='Welcome-information-text'>
-        <div className='circle-number-one'></div>
-        <img className='welcome-img' src={welcomeImage} alt='Andrea-saying-Hi!' height='400px'/>
+        <svg>	
+          <clipPath id="clip">
+            <path>
+              <animate 
+              attributeName='d' 
+              dur='15000ms' 
+              repeatCount='indefinite'
+              values='M474,290.5Q473,331,437.5,354Q402,377,377.5,402.5Q353,428,317,428Q281,428,251.5,418Q222,408,182,422.5Q142,437,122,405.5Q102,374,61,354Q20,334,14.5,292Q9,250,35,215.5Q61,181,97.5,167Q134,153,130,94Q126,35,169.5,36.5Q213,38,247,55Q281,72,317,71.5Q353,71,365,107Q377,143,427.5,155Q478,167,476.5,208.5Q475,250,474,290.5Z;
+    
+              M474,290.5Q473,331,437.5,354Q402,377,377.5,402.5Q353,428,317,428Q281,428,251.5,418Q222,408,182,422.5Q142,437,122,405.5Q102,374,61,354Q20,334,14.5,292Q9,250,35,215.5Q61,181,97.5,167Q134,153,130,94Q126,35,169.5,36.5Q213,38,247,55Q281,72,317,71.5Q353,71,365,107Q377,143,427.5,155Q478,167,476.5,208.5Q475,250,474,290.5Z;
+              
+              M432.5,285.5Q446,321,429.5,354Q413,387,377.5,398Q342,409,310.5,413Q279,417,246.5,434Q214,451,171.5,455Q129,459,100.5,429Q72,399,75.5,355.5Q79,312,87,281Q95,250,89,219.5Q83,189,72,140Q61,91,114,98.5Q167,106,195,100Q223,94,256.5,58.5Q290,23,309,69.5Q328,116,367,118Q406,120,418.5,152Q431,184,425,217Q419,250,432.5,285.5Z;
+              
+              M447.5,284Q437,318,422,349.5Q407,381,374,394Q341,407,315.5,441Q290,475,250.5,473Q211,471,182.5,444Q154,417,122,400.5Q90,384,69.5,353.5Q49,323,69,286.5Q89,250,64.5,211.5Q40,173,78,155.5Q116,138,134,109Q152,80,182.5,61Q213,42,252,31Q291,20,333,27Q375,34,389,78Q403,122,427.5,149Q452,176,455,213Q458,250,447.5,284Z;
+              
+              M433,281.5Q424,313,431.5,361Q439,409,394,415.5Q349,422,313.5,416Q278,410,251,404.5Q224,399,183.5,417Q143,435,126.5,401Q110,367,69,349Q28,331,45.5,290.5Q63,250,78,221.5Q93,193,76,141Q59,89,103.5,81.5Q148,74,185.5,85Q223,96,254.5,70.5Q286,45,329.5,40.5Q373,36,401,68Q429,100,432,141.5Q435,183,438.5,216.5Q442,250,433,281.5Z;
+              
+              M474,290.5Q473,331,437.5,354Q402,377,377.5,402.5Q353,428,317,428Q281,428,251.5,418Q222,408,182,422.5Q142,437,122,405.5Q102,374,61,354Q20,334,14.5,292Q9,250,35,215.5Q61,181,97.5,167Q134,153,130,94Q126,35,169.5,36.5Q213,38,247,55Q281,72,317,71.5Q353,71,365,107Q377,143,427.5,155Q478,167,476.5,208.5Q475,250,474,290.5Z;'/>
+            </path>
+          </clipPath>
+        </svg>
+        <div className="blob"/>
+        <div className='img'>
+          <img className='welcome-img' src={welcomeImage} alt='Andrea-saying-Hi!' height='450px'/>
+        </div>
         <div className='text-div'>
-          <span>Hello! Welcome to my world!</span>
-          <p>My name is... </p>
-          <h1>Andrea Carolina Carvajal Osorio</h1>
+          <div className='first-Line'>
+            <span>Hello! Welcome to my world!</span>
+            <p>My name is... </p>
+          </div>
+          <h1>Andrea Carolina</h1>
+          <h1>Carvajal Osorio</h1>
           <br/>
-          <h3>I'm a Full Stack developer focused on Front-End</h3>
+          <h3>I'm a Full Stack developer</h3>
+          <h3>focused on Front-End</h3>
           <br/>
-          <span>I Love creating</span>
-          <p>Aquí va lo condicional</p>
+          <div className='wrapper'>
+            <div className='static-text'>I Love creating</div>
+            <ul className='dinamic-texts'>
+              <li>UX/UI Websites</li>
+              <li>E-Commerce</li>
+              <li>3D Webistes</li>
+              <li>Softwares</li>
+              <li>Social Media</li>
+            </ul>
+          </div>
           <button>Let's talk!</button>
         </div>
       </div>
