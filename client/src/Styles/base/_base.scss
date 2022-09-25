@@ -16,3 +16,28 @@ button {
   cursor: pointer;
   border: none;
 }
+
+
+* {
+  scrollbar-width: 10px;
+  scrollbar-color: #5d008f;
+}
+
+*::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #5d008f;
+  border-radius: 10px;
+  border: none;
+}
+
+*::-webkit-scrollbar-track {
+  background: #dad6c9;
+}
+
+*::-webkit-scrollbar-track:horizontal{
+  background: #dad6c9;
+}
