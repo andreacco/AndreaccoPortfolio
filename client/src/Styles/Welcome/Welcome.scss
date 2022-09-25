@@ -11,13 +11,12 @@
             position: absolute;
         }
         .blob {
-            width: 50.2rem;
-            min-height: 85vh;
+            width: 50.25rem;
+            min-height: 130vh;
             position: absolute;
-            background: conic-gradient(from 180deg at 61.58% 55.01%, #3F00B5 0deg, #27C8B7 133.12deg, #9F69FE 228.75deg, #3F00B5 360deg);
+            background: conic-gradient(from 180deg at 65.58% 33.01%, #3F00B5 0deg, #27C8B7 133.12deg, #9F69FE 228.75deg, #3F00B5 360deg);
             clip-path: url(#clip);
             margin-left: 35%;
-            box-sizing: border-box;
         }
         .img {
             position: relative;
@@ -34,7 +33,7 @@
             margin-top: 3em;
             .first-Line {
                 font-style: normal;
-                font-size: 30px;
+                font-size: 27px;
                 color: #3F00B5;
                 font-weight: bold;
             }
