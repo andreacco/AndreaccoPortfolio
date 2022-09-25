@@ -1,32 +1,16 @@
 .About-Me-div {
     height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .left-side {
-        .card {
-            display: grid;
-            place-items: center;
-            width: 35vw;
-            height: 90vh;
-            background: linear-gradient(0deg, rgba(63,0,181,1) 0%, rgba(159,105,254,1) 91%);
-            box-shadow: 7px 7px 20px #3F00B5,
-                        -7px -7px 20px #9F69FE;
-            border-bottom-right-radius: 50px;
-            border-top-left-radius: 50px;
-            margin-left: 8em;
-            overflow: hidden;
-            img.me {
-                object-fit: cover;
-                width: 100%;
-
-            }
+    margin-top: 5em;
+    .title-container {
+        position: absolute;
+        display: flex;
+        margin-left: 12em;
+        align-items: center;
+        width: 30em;
+        h1 {
+            margin-left: 1rem;
+            font-size: 30px;
         }
-    }
-    .about-me-text {
-        width: 45vw;
-        margin-right: 3.5em;
-
     }
 }

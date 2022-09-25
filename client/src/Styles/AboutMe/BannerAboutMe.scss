@@ -1,0 +1,179 @@
+.banner-about-me {
+    height: 90vh;
+    // min-height: 350px;
+    // max-height: 375px;
+    overflow: hidden;
+    border-radius: 1.4em;
+    position: relative;
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0);
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+    .card {
+        .slide-1 {
+            width: 25vw;
+            height: 70vh;
+            background: linear-gradient(0deg, rgba(63,0,181,1) 0%, rgba(159,105,254,1) 91%);
+            box-shadow: 7px 7px 20px #3F00B5,
+            -7px -7px 20px #9F69FE;
+            border-bottom-right-radius: 50px;
+            border-top-left-radius: 50px;
+            display: grid;
+            overflow: hidden;
+            justify-self: center;
+            align-self: center;
+            gap: 1em;
+            margin-left: 10em;
+            .me {
+                object-fit: cover;
+                width: 100%;
+                height: 120%;
+                }
+            .nature-img {
+                object-fit: cover;
+                width: 100%;
+                height: 73%;
+                }
+        }
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        z-index: 2;
+        padding: 1em;
+        text-align: justify;
+        align-items: center;
+        text-align-last: center;
+        margin-right: 10em;
+        margin-left: 3em;
+        font-size: 22px;
+
+        .resume-button {
+            background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+            background-size: 800% 400%;
+            padding: 1em;
+            display: inline-block;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            margin-top: 2em;
+            text-decoration: none;
+            position: relative;
+            font-family: inherit;
+            width: 25em;
+            height: 2em;
+            line-height: 2px;
+            text-align: center;
+            z-index: 1;
+        }
+        
+        .resume-button:hover {
+            animation: ani 8s linear infinite;
+            border: none;
+            transform: scale(1.05);
+        }
+        
+        @keyframes ani {
+            0% {
+                background-position: 0%;
+            }
+        
+            100% {
+                background-position: 400%;
+            }
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            
+            50% {
+                background-position: 100% 50%;
+            }
+            
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .resume-button:before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            z-index: -1;
+            background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+            transition: all .5s ease-in-out;
+            animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+            background-size: 400%;
+            border-radius: 35px;
+        }
+        
+        .resume-button:hover::before {
+            filter: blur(20px);
+        }
+        
+        .resume-button:active {
+            background: linear-gradient(32deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+            animation: gradient 3s infinite;
+            transform: scale(0.8);
+        }
+    }
+}
+
+  
+//   @media screen and (max-width: 620px) {
+//     .banner-manga {
+//       .text {
+//         grid-template-columns: 1fr;
+//         .picture {
+//           display: none;
+//         }
+//       }
+//     }
+//   }
+  
+//   @keyframes slide {
+//     0% {margin-left: 0;}
+//     20% {margin-left: 0;}
+  
+//     25% {margin-left: -100%;}
+//     45% {margin-left: -100%;}
+  
+//     50% {margin-left: -200%;}
+//     70% {margin-left: -200%;}
+  
+//     75% {margin-left: -300%;}
+//     100% {margin-left: -300%;}
+//   }
