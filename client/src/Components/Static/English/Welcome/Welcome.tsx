@@ -1,5 +1,4 @@
 import '../../../../Styles/Welcome/Welcome.scss';
-import welcomeImage from '../../../../assets/welcome-img.png'
 
 export default function Welcome() {
   return (
@@ -26,7 +25,7 @@ export default function Welcome() {
         </svg>
         <div className="blob">
           <div className='img'>
-            <img className='welcome-img' src={welcomeImage} alt='Andrea-saying-Hi!' height='450px'/>
+            <img className='welcome-img' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158742/Portfolio/About%20Me%20imgs/welcome-img_s1iiqa.png' alt='Andrea-saying-Hi!' height='450px'/>
           </div>
         </div>
         <div className='text-div'>

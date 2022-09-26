@@ -1,6 +1,4 @@
 import myImage from '../../../../../assets/1664093866852.png';
-import foodieImg from '../../../../../assets/IMG-20220925-WA0002.jpg'
-import natureImg from '../../../../../assets/1664094226035.jpg'
 import '../../../../../Styles/AboutMe/BannerAboutMe.scss';
 import { Swiper, SwiperSlide } from "swiper/react";
 import ButtonResume from './ButtonResume';
@@ -34,7 +32,7 @@ return (
         <SwiperSlide>
                 <div className='card'>
                     <section className='slide-1'>
-                        <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
+                        <img className='me' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664170848/Portfolio/About%20Me%20imgs/IMG_20220926_013712_b814nw.jpg' alt='Andrea-saying-Hi!'/>
                     </section>
                 </div>
             <div className="text">
@@ -86,7 +84,7 @@ return (
         <SwiperSlide>
             <div className='card'>
                 <section className='slide-1'>
-                    <img className='nature-img' src={natureImg} alt='Andrea-saying-Hi!'/>
+                    <img className='nature-img' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158779/Portfolio/About%20Me%20imgs/1664094226035_livvxb.jpg' alt='Andrea-saying-Hi!'/>
                 </section>
             </div>
             <div className="text">
@@ -99,7 +97,7 @@ return (
         <SwiperSlide>
             <div className='card'>
                 <section className='slide-1'>
-                    <img className='me' src={foodieImg} alt='Andrea-saying-Hi!'/>
+                    <img className='me' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158680/Portfolio/About%20Me%20imgs/IMG-20220925-WA0002_nm0nbu.jpg' alt='Andrea-saying-Hi!'/>
                 </section>
             </div>
             <div className="text">

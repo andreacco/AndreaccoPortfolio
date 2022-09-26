@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import '../../../../Styles/NavBar/NavBar.scss'
 export default function NavBar() {
@@ -8,7 +9,10 @@ export default function NavBar() {
         barEl.style.width = `${scrollPos}%`
         requestAnimationFrame(updateBar)
     } 
-    updateBar()
+
+    useEffect (() => {
+        updateBar()
+    })
 
     return (
         <section className='NavBar-Container'>
