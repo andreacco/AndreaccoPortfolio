@@ -1,35 +1,30 @@
-import React from 'react'
+import { BsPersonCircle } from "react-icons/bs";
+import soft from "../../../../../data/SoftSkills";
+import '../../../../../Styles/Skills/SoftSkills.scss'
 
 export default function SoftSkills() {
   return (
-    <div>
-      <h2>Soft Skills: </h2>
-      <img />
-      <h4>Leadership</h4>
-      <img />
-      <h4>Teamwork</h4>
-      <img />
-      <h4>Organization</h4>
-      <img />
-      <h4>Creativity</h4>
-      <img />
-      <h4>Autonomy</h4>
-      <img />
-      <h4>Problem Solving</h4>
-      <img />
-      <h4>Communication</h4>
-      <img />
-      <h4>Decision-Making</h4>
-      <img />
-      <h4>Self-taught</h4>
-      <img />
-      <h4>Multitasking</h4>
-      <img />
-      <h4>Autodidact</h4>
-      <img />
-      <h4>Possitive Attitude</h4>
-      <img />
-      <h4>Self-Motivation</h4>
+    <div className="soft-skills-div">
+      <div className="title-container">
+      <BsPersonCircle
+        size={40}
+        color={'#3F00B5'}/>
+        <h1>Soft Skills</h1>
+      </div>
+      <div className="soft-skills-container">
+        {
+          soft.map(s => {
+            return(
+              <div className="each-skill">
+                <div>
+                  <img src={s.img} alt={s.alt}/>
+                </div>
+                <span>{s.name}</span>
+              </div>
+            )
+          })
+        }
+      </div>
     </div>
   )
 }
