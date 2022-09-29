@@ -1,0 +1,12 @@
+.Footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--navbar);
+    height: 4em;
+    a:visited{
+        text-decoration: none;
+        color: black;
+    }
+}

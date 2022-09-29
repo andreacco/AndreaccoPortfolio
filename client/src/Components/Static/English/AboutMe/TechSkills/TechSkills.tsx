@@ -12,11 +12,11 @@ export default function TechSkills() {
         color={'#3F00B5'}/>
         <h1>Tech Skills</h1>
       </div>
-      <div className="tech-skills-container">
+      <ul className="tech-skills-container">{/*  grid */}
         {
           Tech.map(s => {
             return(
-              <div className="each-skill">
+              <div className="each-skill"> {/* link --> div cardy */} 
                 <div>
                   <img src={s.img} alt={s.alt}/>
                 </div>
@@ -25,7 +25,7 @@ export default function TechSkills() {
             )
           })
         }
-      </div>
+      </ul>
     </div>
   )
 }

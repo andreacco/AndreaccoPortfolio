@@ -32,7 +32,7 @@ return (
         <SwiperSlide>
                 <div className='card'>
                     <section className='slide-1'>
-                        <img className='me' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664170848/Portfolio/About%20Me%20imgs/IMG_20220926_013712_b814nw.jpg' alt='Andrea-saying-Hi!'/>
+                        <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
                     </section>
                 </div>
             <div className="text">
@@ -45,7 +45,7 @@ return (
         <SwiperSlide>
             <div className='card'>
                 <section className='slide-1'>
-                    <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
+                    <img className='me' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664469898/Portfolio/About%20Me%20imgs/-5017298538429786803_121_coding_vcbnzd.jpg' alt='Andrea-saying-Hi!'/>
                 </section>
             </div>
             <div className="text">
@@ -58,7 +58,7 @@ return (
         <SwiperSlide>
             <div className='card'>
                 <section className='slide-1'>
-                    <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
+                    <img className='me' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664469898/Portfolio/About%20Me%20imgs/-5017298538429786797_121_henry_v3icv5.jpg' alt='Andrea-saying-Hi!'/>
                 </section>
             </div>
             <div className="text">
@@ -71,7 +71,7 @@ return (
         <SwiperSlide>
             <div className='card'>
                 <section className='slide-1'>
-                    <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
+                    <img className='me' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664470740/Portfolio/About%20Me%20imgs/IMG_20210616_104516_camineg_x4tgke.jpg' alt='Andrea-saying-Hi!'/>
                 </section>
             </div>
             <div className="text">

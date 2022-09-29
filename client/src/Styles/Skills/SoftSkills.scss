@@ -1,20 +1,20 @@
 .soft-skills-div {
     .title-container {
         display: flex;
-        margin-left: 11em;
+        margin-left: 5em;
         align-items: center;
         width: 30em;
+        margin-bottom: 2em;
         h1 {
             margin-left: 1rem;
             font-size: 30px;
         }
     }
     .soft-skills-container{
-        display: flex;
-        flex-wrap: wrap;
+        margin-left: 3em;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 14em);
         justify-content: space-between;
-        width: 75em;
-        margin: 2em 3em 3em 5em;
         .each-skill{
             display: flex;
             flex-direction: column;
