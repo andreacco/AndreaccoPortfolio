@@ -1,7 +1,8 @@
 .About-Me-div {
     height: 100vh;
     width: 100%;
-    margin-top: 5em;
+    // margin-top: 5em;
+    z-index: 5;
     .title-container {
         position: absolute;
         display: flex;
