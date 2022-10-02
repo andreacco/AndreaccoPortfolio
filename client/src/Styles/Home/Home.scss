@@ -1,0 +1,11 @@
+.go-up-button{
+    color: var(--dark-blue);
+    bottom:0px;
+    right:0px;
+    width:50px;
+    position: fixed; 
+    font-size: 3rem;
+    z-index: 99;
+    cursor: pointer;
+    background: transparent;
+}

@@ -29,7 +29,9 @@ export default function Welcome() {
               <li>Social Media</li>
             </ul>
           </div>
-          <button>Let's talk!</button>
+          <a href="mailto:andreacc9199@gmail.com?Subject=Hi%20Andrea!%20I%20want%20to%20talk%20with%20you">
+            <button>Let's talk!</button>
+          </a>
         </div>
         <svg>	
           <clipPath id="clip">

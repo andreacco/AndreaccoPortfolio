@@ -7,7 +7,7 @@ import { TbArrowWaveRightDown } from "react-icons/tb";
 
 export default function AboutMe() {
   return (
-    <div className='About-Me-div'>
+    <div className='About-Me-div' id='aboutMe'>
         <div className='title-container'>
           <TbMoodHappy
           size={40}
@@ -16,9 +16,6 @@ export default function AboutMe() {
           <span></span>
         </div>
         <BannerAboutMe/>
-      {/* <h1>My Skills:</h1>
-      <TechSkills/>
-      <SoftSkills/> */}
     </div>
   )
 }

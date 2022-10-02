@@ -22,18 +22,18 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className='NavBar-Content-Container'>
-                <Link to='/AboutMe' className='link'>
+                <a href='#aboutMe' className='link'>
                     <span>About Me</span>
-                </Link>
-                <Link to='/Projects' className='link'>
-                    <span>Projects</span>
-                </Link>
-                <Link to='/MySkills' className='link'>
+                </a>
+                <a href='#mySkills' className='link'>
                     <span>My Skills</span>
-                </Link>
-                <Link to='/Contact' className='link'>
+                </a>
+                <a href='#projects' className='link'>
+                    <span>Projects</span>
+                </a>
+                {/* <Link to='/Contact' className='link'>
                     <span>Contact</span>
-                </Link>
+                </Link> */}
                 </div>
                 <div className='progress'>
                     <span className='bar'></span>
