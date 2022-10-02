@@ -8,6 +8,7 @@ import SoftSkills from '../AboutMe/SoftSkills/SoftSkills'
 import '../../../../Styles/Home/Home.scss'
 import { useState } from 'react'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
+import Contact from '../Contact/Contact'
 
 export default function Home() {
     const [visible, setVisible] = useState(false)
@@ -42,6 +43,7 @@ export default function Home() {
             <TechSkills/>
             <SoftSkills/>
             <Projects/>
+            <Contact/>
             <Footer/>
         </>
     )

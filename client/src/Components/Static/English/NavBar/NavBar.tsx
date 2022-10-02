@@ -31,9 +31,9 @@ export default function NavBar() {
                 <a href='#projects' className='link'>
                     <span>Projects</span>
                 </a>
-                {/* <Link to='/Contact' className='link'>
+                <a href='#contact' className='link'>
                     <span>Contact</span>
-                </Link> */}
+                </a>
                 </div>
                 <div className='progress'>
                     <span className='bar'></span>

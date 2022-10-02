@@ -15,7 +15,6 @@ function App() {
         <Route path="/" element={<Home/>}>
           <Route path="/" element={<NavBar/>}/>
         </Route>
-        {/* <Route path="/Resume" element={<Resume/>}/> */}
       </Routes>
     </BrowserRouter>
   )
