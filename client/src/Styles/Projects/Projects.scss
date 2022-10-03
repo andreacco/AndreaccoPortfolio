@@ -16,8 +16,10 @@
     }
     .my-projects-container{
         display: grid;
-        grid-template-columns: repeat(3, 60vh);
-        grid-template-rows: repeat(2, 32vw);
+        // grid-template-columns: repeat(3, 60vh);
+        // grid-template-rows: repeat(2, 32vw);
+        grid-template-columns: repeat(auto-fill, 22em);
+        grid-template-rows: repeat(2, 21em);
         grid-gap: 2em;
         transition: all 0.3s ease(gravity);
         justify-content: center;

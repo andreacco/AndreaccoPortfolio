@@ -11,9 +11,10 @@
         }
     }
     .soft-skills-container{
-        margin-left: 3em;
+        margin-left: 2em;
+        margin-right: 2em;
         display: grid;
-        grid-template-columns: repeat(auto-fill, 14em);
+        grid-template-columns: repeat(auto-fill, 11em);
         justify-content: space-between;
         .each-skill{
             display: flex;
@@ -23,7 +24,8 @@
             flex: none;
             width: calc((100% - 50px) / 5);
             margin-bottom: 50px;
-            padding: 0 2em;
+            width: 9em;
+            place-self: center;
 
             &:last-child{
                 margin-right: auto;
@@ -35,6 +37,7 @@
                 width: 50px;
             }
             span {
+                text-align: -webkit-center;
                 font-size: 22px;
             }
         }
