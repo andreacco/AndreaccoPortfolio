@@ -102,7 +102,7 @@ return (
             </div>
             <div className="text">
                 <div>
-                    <p>I also to read a book, listen to music, practice meditation or something that relaxes my mind and body, watch series and movies. And least but no last, I'm a foodie, I really love to go out to eat and enjoy with my family or friends at it.</p>
+                    <p>I also like to read a book, listen to music, practice meditation or something that relaxes my mind and body, watch series and movies. And least but no last, I'm a foodie, I really love to go out to eat and enjoy with my family or friends at it.</p>
                 </div>
                 <ButtonResume/>
             </div>
