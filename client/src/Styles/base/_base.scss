@@ -42,3 +42,9 @@ button {
 *::-webkit-scrollbar-track:horizontal{
   background: #dad6c9;
 }
+
+@media (max-width: 414px) {
+  #root {
+    width: 414px;
+  }
+}

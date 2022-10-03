@@ -1,10 +1,12 @@
 .NavBar-Container{
     display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--navbar);
     border-bottom-style: outset;
 
     .Logo-Container{
-        flex-direction: column;
         margin-left: 20px;
     }
 
@@ -12,7 +14,8 @@
         display: flex;
         margin-left: auto;
         margin-right: 20px;
-        width: 600px;
+        width: 35em;
+        height: 100%;
         flex-direction: row;
         justify-content: space-between;
         align-content: stretch;
@@ -20,7 +23,7 @@
 
         .link {
             position: relative;
-            display: inline-block;
+            display: flex;
         }
 
         .link::before, .link::after {
@@ -52,6 +55,22 @@
             color:black;
         }
     }
+    .hamburguer {
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 30px;
+        .burguer {
+            height: 3px;
+            width: 100%;
+            border-radius: 10px;
+            background: #171515;
+        }
+    }
     .progress {
         position: fixed;
         top: 0;
@@ -68,3 +87,63 @@
         background-image: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
     }
 }
+
+
+@media (max-width: 780px) {
+    .NavBar-Container {
+        flex-direction: column;
+        align-items: flex-start;
+        .Logo-Container{
+            img{
+                height: 80px;
+            }
+        }
+        .hamburger.is-active {
+            display: flex;
+        }
+    
+        .NavBar-Content-Container {
+            // display: none;
+            width: 22em;
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .NavBar-Container {
+        flex-direction: column;
+        align-items: flex-start;
+        .Logo-Container{
+            img{
+                height: 80px;
+            }
+        }
+        .hamburger.is-active {
+            display: flex;
+        }
+    
+        .NavBar-Content-Container {
+            // display: none;
+            width: 22em;
+        }
+    }
+}
+
+
+    // .NavBar-Content-Container ul {
+    //     width: 100%;
+    //     flex-direction: column;
+    // }
+
+    // .NavBar-Content-Container ul li {
+    //     text-align: center;
+    // }
+
+    // .NavBar-Content-Container ul li a {
+    //     padding: .5rem 1rem;
+    // }
+
+//     .NavBar-Content-Container.active {
+//         display: flex;
+//     }
+// }

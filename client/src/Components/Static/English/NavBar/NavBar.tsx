@@ -1,6 +1,7 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../../../../Styles/NavBar/NavBar.scss'
+
 export default function NavBar() {
     const updateBar = () => {
         const bodyEl:any = document.body
@@ -14,6 +15,8 @@ export default function NavBar() {
         updateBar()
     })
 
+    const [isActive, setIsActive] = useState<boolean>(false);
+
     return (
         <section className='NavBar-Container'>
             <div className='Logo-Container'>
@@ -21,6 +24,13 @@ export default function NavBar() {
                     <img src='Logo_Light_Mode.svg' alt='Andrea-Carvajal-Osorio-Logo' height='100px'/>
                 </Link>
             </div>
+            <button className={isActive ? 'hamburger is-active' : 'hamburger'}
+            onClick={() => setIsActive(!isActive)}>
+                <span className="burguer"></span>
+                <span className="burguer one"></span>
+                <span className="burguer two"></span>
+                <span className="burguer three"></span>
+            </button>
             <div className='NavBar-Content-Container'>
                 <a href='#aboutMe' className='link'>
                     <span>About Me</span>
