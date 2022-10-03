@@ -13,7 +13,7 @@
         margin-left: 2em;
         margin-right: 2em;
         display: grid;
-        grid-template-columns: repeat(auto-fill, 11em);
+        grid-template-columns: repeat(auto-fill, 10em);
         justify-content: space-between;
         .each-skill{
             display: flex;
@@ -43,3 +43,11 @@
     }
 }
 
+@media (max-width: 414px) {
+    .tech-skills-div {
+        .title-container{
+            width: 13rem;
+            margin-left: 2em;
+        }
+    }
+}

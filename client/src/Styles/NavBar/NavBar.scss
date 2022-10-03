@@ -88,6 +88,13 @@
     }
 }
 
+@media (max-width: 414px) {
+    .NavBar-Container{
+        .progress{
+            width: 414px;
+        }
+    }
+}
 
 @media (max-width: 780px) {
     .NavBar-Container {

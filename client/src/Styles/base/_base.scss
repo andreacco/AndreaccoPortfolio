@@ -1,6 +1,12 @@
 #root {
   background-color: var(--background);
   position: relative;
+  overflow: hidden;
+}
+
+body, html {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 * {
