@@ -10,3 +10,14 @@
         color: black;
     }
 }
+
+@media (max-width: 414px) {
+    .Footer-container{
+        height: 6em;
+        .second-line{
+            margin-top: 0.5em;
+            width: 24em;
+            text-align: center;
+        }
+    }
+}
