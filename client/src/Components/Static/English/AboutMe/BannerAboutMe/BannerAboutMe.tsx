@@ -30,11 +30,11 @@ return (
         className="mySwiper">
 
         <SwiperSlide>
-                <div className='card'>
-                    <section className='slide-1'>
-                        <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
-                    </section>
-                </div>
+            <div className='card'>
+                <section className='slide-1'>
+                    <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
+                </section>
+            </div>
             <div className="text">
                 <div>
                     <p>I am a Full stack developer from Venezuela, who loves front-end development and web applications that look good and are completely useful and functional.</p>

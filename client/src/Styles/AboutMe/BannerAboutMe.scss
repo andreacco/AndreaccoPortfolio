@@ -122,6 +122,20 @@
                 background-position: 0% 50%;
             }
         }
+
+        @keyframes slide {
+            0% {margin-left: 0;}
+            20% {margin-left: 0;}
+        
+            25% {margin-left: -100%;}
+            45% {margin-left: -100%;}
+        
+            50% {margin-left: -200%;}
+            70% {margin-left: -200%;}
+        
+            75% {margin-left: -300%;}
+            100% {margin-left: -300%;}
+        }
         
         .resume-button:before {
             content: '';
@@ -150,28 +164,74 @@
     }
 }
 
-  
-  @media screen and (max-width: 620px) {
+
+//   @media screen and (max-width: 620px) {
+//     .banner-about-me {
+//       .text {
+//         grid-template-columns: 1fr;
+//         .card {
+//           display: none;
+//         }
+//       }
+//     }
+//   }
+
+@media (max-width: 414px) {
     .banner-about-me {
-      .text {
-        grid-template-columns: 1fr;
-        .card {
-          display: none;
+        height: 90vh;
+        .swiper {
+            margin-top: 5em;
+            width: 90%;
+            height: 90%;
         }
-      }
+        
+        .swiper-slide {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        .card {
+            .slide-1 {
+                // position: absolute;
+                display: flex;
+                width: 15em;
+                height: 18em;
+                justify-self: center;
+                align-self: center;
+                margin-left: 0;
+                .me {
+                    object-fit: cover;
+                    width: 100%;
+                    }
+                .nature-img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    }
+            }
+        }
+        .text {
+            width: 80%;
+            margin-left: 9em;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            top: 0;
+            z-index: 2;
+            padding: 1em;
+            text-align: justify;
+            align-items: center;
+            text-align-last: center;
+            margin-right: 10em;
+            font-size: 22px;
+    
+            .resume-button {
+                width: 10em;
+            }
+        }
     }
-  }
-  
-  @keyframes slide {
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-  
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-  
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-  
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-  }
+}
+

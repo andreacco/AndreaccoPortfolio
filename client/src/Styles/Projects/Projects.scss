@@ -113,5 +113,18 @@
             width: 13rem;
             margin-left: 2em;
         }
+        .my-projects-container{
+            width: 390px;
+            grid-template-columns: repeat(auto-fill, 17em);
+            grid-template-rows: repeat(2, 21em);
+            .card {
+                height: 100%;
+            }
+            .card:hover {
+                .info-description{
+                    width: 90%;
+                }
+            }
+        }
     }
 }

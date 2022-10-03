@@ -15,7 +15,11 @@ export default function NavBar() {
         updateBar()
     })
 
-    const [isActive, setIsActive] = useState<boolean>(false);
+    const [open, setOpen] = useState<boolean>(false);
+
+    const handleClick = () => {
+        setOpen(!open)
+    }
 
     return (
         <section className='NavBar-Container'>
@@ -24,8 +28,7 @@ export default function NavBar() {
                     <img src='Logo_Light_Mode.svg' alt='Andrea-Carvajal-Osorio-Logo' height='100px'/>
                 </Link>
             </div>
-            <button className={isActive ? 'hamburger is-active' : 'hamburger'}
-            onClick={() => setIsActive(!isActive)}>
+            <button >
                 <span className="burguer"></span>
                 <span className="burguer one"></span>
                 <span className="burguer two"></span>

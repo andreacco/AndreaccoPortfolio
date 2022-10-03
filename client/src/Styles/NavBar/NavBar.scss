@@ -89,9 +89,21 @@
 }
 
 @media (max-width: 414px) {
-    .NavBar-Container{
-        .progress{
-            width: 414px;
+    .NavBar-Container {
+        flex-direction: column;
+        align-items: flex-start;
+        .Logo-Container{
+            img{
+                height: 80px;
+            }
+        }
+        .hamburger.is-active {
+            display: flex;
+        }
+    
+        .NavBar-Content-Container {
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
@@ -110,31 +122,14 @@
         }
     
         .NavBar-Content-Container {
-            // display: none;
-            width: 22em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-right: 2em;
+            width: 23.5em;
         }
     }
 }
 
-@media (max-width: 780px) {
-    .NavBar-Container {
-        flex-direction: column;
-        align-items: flex-start;
-        .Logo-Container{
-            img{
-                height: 80px;
-            }
-        }
-        .hamburger.is-active {
-            display: flex;
-        }
-    
-        .NavBar-Content-Container {
-            // display: none;
-            width: 22em;
-        }
-    }
-}
 
 
     // .NavBar-Content-Container ul {
