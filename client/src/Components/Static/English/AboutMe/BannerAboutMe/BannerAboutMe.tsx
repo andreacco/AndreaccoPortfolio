@@ -50,7 +50,7 @@ return (
             </div>
             <div className="text">
                 <div>
-                    <p>I have always been passionate about technology. Since I was in high school and I had a subject called computer science (in which I learned to develop in Visual Basic), I fell in love with development and I was clear that in my career, I wanted to do something related to it.</p>
+                    <p>I've always been passionate about technology. Since I was in high school and had a subject called computer science (in which I learned to develop in Visual Basic), I fell in love with development and it was clear to me that in my career I wanted to do something related to it.</p>
                 </div>
                 <ButtonResume/>
             </div>

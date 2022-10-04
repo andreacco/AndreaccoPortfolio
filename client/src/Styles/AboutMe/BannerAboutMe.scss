@@ -1,7 +1,7 @@
 .banner-about-me {
     height: 90vh;
-    min-height: 50vh;
-    max-height: 90vh;
+    // min-height: 50vh;
+    // max-height: 90vh;
     overflow: hidden;
     border-radius: 1.4em;
     position: relative;
@@ -176,7 +176,7 @@
 //     }
 //   }
 
-@media (max-width: 414px) {
+@media screen and (max-width: 780px) {
     .banner-about-me {
         height: 100vh;
         .swiper {

@@ -28,25 +28,29 @@ export default function NavBar() {
                     <img src='Logo_Light_Mode.svg' alt='Andrea-Carvajal-Osorio-Logo' height='100px'/>
                 </Link>
             </div>
-            <button >
-                <span className="burguer"></span>
-                <span className="burguer one"></span>
-                <span className="burguer two"></span>
-                <span className="burguer three"></span>
-            </button>
             <div className='NavBar-Content-Container'>
-                <a href='#aboutMe' className='link'>
-                    <span>About Me</span>
-                </a>
-                <a href='#mySkills' className='link'>
-                    <span>My Skills</span>
-                </a>
-                <a href='#projects' className='link'>
-                    <span>Projects</span>
-                </a>
-                <a href='#contact' className='link'>
-                    <span>Contact</span>
-                </a>
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                
+                <ul className='menu'>
+                    <a href='#aboutMe' className='link'>
+                        <li>About Me</li>
+                    </a>
+                    <a href='#mySkills' className='link'>
+                        <li>My Skills</li>
+                    </a>
+                    <a href='#projects' className='link'>
+                        <li>Projects</li>
+                    </a>
+                    <a href='#contact' className='link'>
+                        <li>Contact</li>
+                    </a>
+                </ul>
+
                 </div>
                 <div className='progress'>
                     <span className='bar'></span>
