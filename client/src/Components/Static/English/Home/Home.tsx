@@ -9,6 +9,7 @@ import '../../../../Styles/Home/Home.scss'
 import { useState } from 'react'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import Contact from '../Contact/Contact'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     const [visible, setVisible] = useState(false)
@@ -32,11 +33,13 @@ export default function Home() {
 
     return (
         <>
-            <button className='go-up-button'>
-                <BsFillArrowUpCircleFill
-                onClick={scrollToTop}
-                style={{display: visible ? 'inline' : 'none'}}/>
-            </button>
+            <Link to='/'>
+                <button className='go-up-button'>
+                    <BsFillArrowUpCircleFill
+                    onClick={scrollToTop}
+                    style={{display: visible ? 'inline' : 'none'}}/>
+                </button>
+            </Link>
             <NavBar/>
             <Welcome/>
             <AboutMe/>
