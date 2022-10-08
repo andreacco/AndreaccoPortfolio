@@ -19,6 +19,8 @@ export default function NavBar() {
 
     const handleClick = () => {
         setOpen(!open)
+        // let inputMenu = document.getElementById("input");
+        $("#menu-input").prop("checked", true) ? $("#menu-input").prop("checked", false) : ''
     }
 
     return (
@@ -29,7 +31,7 @@ export default function NavBar() {
                 </Link>
             </div>
             <div className='NavBar-Content-Container'>
-                <input type="checkbox" />
+                <input type="checkbox" id='menu-input' />
 
                 <span></span>
                 <span></span>
@@ -37,16 +39,16 @@ export default function NavBar() {
 
                 
                 <ul className='menu'>
-                    <a href='#aboutMe' className='link'>
+                    <a href='#aboutMe' className='link' onClick={() => handleClick()}>
                         <li>About Me</li>
                     </a>
-                    <a href='#mySkills' className='link'>
+                    <a href='#mySkills' className='link' onClick={() => handleClick()}>
                         <li>My Skills</li>
                     </a>
-                    <a href='#projects' className='link'>
+                    <a href='#projects' className='link' onClick={() => handleClick()}>
                         <li>Projects</li>
                     </a>
-                    <a href='#contact' className='link'>
+                    <a href='#contact' className='link' onClick={() => handleClick()}>
                         <li>Contact</li>
                     </a>
                 </ul>

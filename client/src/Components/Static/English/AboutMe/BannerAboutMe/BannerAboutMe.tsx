@@ -84,7 +84,7 @@ return (
         <SwiperSlide>
             <div className='card'>
                 <section className='slide-1'>
-                    <img className='nature-img' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158779/Portfolio/About%20Me%20imgs/1664094226035_livvxb.jpg' alt='Andrea-saying-Hi!'/>
+                    <img className='nature-img' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1665250960/Portfolio/About%20Me%20imgs/1664094226035_livvxb.jpg' alt='Andrea-saying-Hi!'/>
                 </section>
             </div>
             <div className="text">
