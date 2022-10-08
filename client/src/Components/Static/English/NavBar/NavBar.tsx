@@ -15,12 +15,8 @@ export default function NavBar() {
         updateBar()
     })
 
-    const [open, setOpen] = useState<boolean>(false);
-
     const handleClick = () => {
-        setOpen(!open)
-        // let inputMenu = document.getElementById("input");
-        $("#menu-input").prop("checked", true) ? $("#menu-input").prop("checked", false) : ''
+        (document.getElementById('menu-input') as HTMLInputElement).checked = false;
     }
 
     return (
