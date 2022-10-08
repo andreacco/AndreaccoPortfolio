@@ -162,16 +162,16 @@
             }
             .menu{
                 position: absolute;
-                width: 300px;
-                height: 300px;
-                margin: -100px 0 0 -50px;
-                padding: 50px;
+                width: 200px;
+                height: 200px;
+                margin: -30px 10px 0 -10px;
+                padding: 40px;
                 border-radius: 50%;
                 background: rgba(63, 0, 181, 0.7);
                 list-style-type: none;
                 -webkit-font-smoothing: antialiased;
                 transform-origin: 0% 0%;
-                transform: translate(102%, -60%);
+                transform: translate(102%, -80%);
                 
                 transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
                 
@@ -183,9 +183,11 @@
                     li{
                         display: flex;
                         color: #fff;
-                        padding: 10px 0;
+                        padding: 7px 0;
                         font-size: 22px;
-                        margin-left: 50px;
+                        width: 103px;
+                        border-bottom: rgba(175, 135, 250, 0.7) solid 1.5px;
+                        // background: green;
                     }
                 }
                 .big-circle{
