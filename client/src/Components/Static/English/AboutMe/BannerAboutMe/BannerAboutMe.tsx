@@ -27,7 +27,8 @@ return (
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper">
+        className="mySwiper"
+        loop={true}>
 
         <SwiperSlide>
             <div className='card'>
