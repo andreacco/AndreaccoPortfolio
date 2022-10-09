@@ -1,5 +1,5 @@
 const myProjects = [
-    {   
+    /* {   
         img: '',
         alt: 'SuperMarket-project',
         name: 'SuperMarket',
@@ -14,7 +14,7 @@ const myProjects = [
         description: "",
         gitHub: '',
         deploy: ''
-    },
+    }, */
     {   
         img: 'https://res.cloudinary.com/drdbdhlp2/image/upload/v1664182003/Portfolio/Projects/MangaCoffee_kfvw2q.png',
         alt: 'Manga-Coffee-project',
@@ -31,7 +31,7 @@ const myProjects = [
         gitHub: 'https://github.com/andreacco/PI-Dogs-Andrea-Carvajal-Osorio',
         deploy: 'https://wikidogs.vercel.app/'
     },
-    {   
+    /* {   
         img: '',
         alt: 'Calculator-project',
         name: 'Calculator',
@@ -46,7 +46,7 @@ const myProjects = [
         description: "",
         gitHub: '',
         deploy: ''
-    },
+    }, */
 ]
 
 export default myProjects;
