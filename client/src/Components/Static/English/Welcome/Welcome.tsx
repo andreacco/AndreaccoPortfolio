@@ -24,8 +24,8 @@ export default function Welcome() {
             <ul className='dinamic-texts'>
               <li>UX/UI Websites</li>
               <li>E-Commerce</li>
-              <li>3D Webistes</li>
-              <li>Softwares</li>
+              <li>Web Apps</li>
+              <li>Software</li>
               <li>Social Media</li>
             </ul>
           </div>
