@@ -33,7 +33,7 @@ return (
         <SwiperSlide>
             <div className='card'>
                 <section className='slide-1'>
-                    <img className='me' src={myImage} alt='Andrea-saying-Hi!'/>
+                    <img className='me' src='https://res.cloudinary.com/drdbdhlp2/image/upload/v1665959994/Portfolio/About%20Me%20imgs/andrea_vzlaaaaa_rwcffz.jpg' alt='Andrea-saying-Hi!'/>
                 </section>
             </div>
             <div className="text">
