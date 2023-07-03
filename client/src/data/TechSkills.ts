@@ -43,9 +43,9 @@ const Tech = [
     },
     {
         id: "8",
-        name: "Git",
-        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158510/Portfolio/Tech%20Skills/git-logo_hdsotl.png",
-        alt: "Git-logo",
+        name: "Next.js",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/next-js-logo-8FCFF51DD2-seeklogo.com_fwyemk.png",
+        alt: "Next.js-logo",
     },
     {
         id: "9",
@@ -73,9 +73,33 @@ const Tech = [
     },
     {
         id: "13",
+        name: "Docker",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/docker_jgndc7.png",
+        alt: "Docker-logo",
+    },
+    {
+        id: "14",
+        name: "Git",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158510/Portfolio/Tech%20Skills/git-logo_hdsotl.png",
+        alt: "Git-logo",
+    },
+    {
+        id: "15",
         name: "PostgreSQL",
         img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158513/Portfolio/Tech%20Skills/postgreSQL-logo_iuwnvd.png",
         alt: "PostgreSQL-logo",
+    },
+    {
+        id: "16",
+        name: "GraphQL",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/GraphQL_Logo.svg_h7fcht.png",
+        alt: "GraphQL-logo",
+    },
+    {
+        id: "17",
+        name: "Redis",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/redis-logo_ggpid4.png",
+        alt: "Redis-logo",
     },
     
 ]

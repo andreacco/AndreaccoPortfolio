@@ -31,6 +31,14 @@ const myProjects = [
         gitHub: 'https://github.com/andreacco/PI-Dogs-Andrea-Carvajal-Osorio',
         deploy: 'https://wikidogs.vercel.app/'
     },
+    {   
+        img: 'https://res.cloudinary.com/drdbdhlp2/image/upload/v1688417344/Screenshot_1_lkzeee.png',
+        alt: 'Sazones-Culinarios',
+        name: 'Sazones Culinarios',
+        description: "E-Commerce where you can see the information about different digital products(online courses) and buy them.",
+        gitHub: 'https://github.com/andreacco/Sazones-Culinarios',
+        deploy: 'https://sazones-culinarios.vercel.app/'
+    },
     /* {   
         img: '',
         alt: 'Calculator-project',
