@@ -65,12 +65,12 @@ const Tech = [
         img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158511/Portfolio/Tech%20Skills/expressjs-logo_dx9vpa.svg",
         alt: "Express-logo",
     },
-    // {
-    //     id: "12",
-    //     name: "Tailwind css",
-    //     img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026639/Portfolio/Tech%20Skills/Tailwind_CSS_Logo.svg_quitsj.png",
-    //     alt: "Tailwind-logo",
-    // },
+    {
+        id: "12",
+        name: "Tailwind css",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026639/Portfolio/Tech%20Skills/Tailwind_CSS_Logo.svg_quitsj.png",
+        alt: "Tailwind-logo",
+    },
     // {
     //     id: "13",
     //     name: "Docker",
@@ -86,8 +86,8 @@ const Tech = [
     {
         id: "15",
         name: "MongoDB",
-        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026640/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh.png",
-        // img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026868/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh_ciuzbz.png",
+        // img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026640/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh.png",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026868/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh_ciuzbz.png",
         alt: "MongoDb-logo",
     },
     {
