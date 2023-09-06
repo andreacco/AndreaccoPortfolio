@@ -85,7 +85,7 @@ const Tech = [
     },
     {
         id: "15",
-        name: "MongoDb",
+        name: "MongoDB",
         img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026640/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh.png",
         // img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026868/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh_ciuzbz.png",
         alt: "MongoDb-logo",
