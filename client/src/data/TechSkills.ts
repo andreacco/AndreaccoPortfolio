@@ -65,18 +65,18 @@ const Tech = [
         img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158511/Portfolio/Tech%20Skills/expressjs-logo_dx9vpa.svg",
         alt: "Express-logo",
     },
-    {
-        id: "12",
-        name: "Sequelize",
-        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158528/Portfolio/Tech%20Skills/sequelize-logo_efkd6z.png",
-        alt: "Sequelize-logo",
-    },
-    {
-        id: "13",
-        name: "Docker",
-        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/docker_jgndc7.png",
-        alt: "Docker-logo",
-    },
+    // {
+    //     id: "12",
+    //     name: "Tailwind css",
+    //     img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026639/Portfolio/Tech%20Skills/Tailwind_CSS_Logo.svg_quitsj.png",
+    //     alt: "Tailwind-logo",
+    // },
+    // {
+    //     id: "13",
+    //     name: "Docker",
+    //     img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/docker_jgndc7.png",
+    //     alt: "Docker-logo",
+    // },
     {
         id: "14",
         name: "Git",
@@ -85,22 +85,35 @@ const Tech = [
     },
     {
         id: "15",
+        name: "MongoDb",
+        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026640/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh.png",
+        // img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026868/Portfolio/Tech%20Skills/MongoDB_Logo.svg_ghe3zh_ciuzbz.png",
+        alt: "MongoDb-logo",
+    },
+    {
+        id: "16",
         name: "PostgreSQL",
         img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1664158513/Portfolio/Tech%20Skills/postgreSQL-logo_iuwnvd.png",
         alt: "PostgreSQL-logo",
     },
-    {
-        id: "16",
-        name: "GraphQL",
-        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/GraphQL_Logo.svg_h7fcht.png",
-        alt: "GraphQL-logo",
-    },
-    {
-        id: "17",
-        name: "Redis",
-        img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/redis-logo_ggpid4.png",
-        alt: "Redis-logo",
-    },
+    // {
+    //     id: "17",
+    //     name: "GraphQL",
+    //     img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/GraphQL_Logo.svg_h7fcht.png",
+    //     alt: "GraphQL-logo",
+    // },
+    // {
+    //     id: "18",
+    //     name: "Redis",
+    //     img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1688416487/redis-logo_ggpid4.png",
+    //     alt: "Redis-logo",
+    // },
+    // {
+    //     id: "19",
+    //     name: "AWS",
+    //     img: "https://res.cloudinary.com/drdbdhlp2/image/upload/v1694026641/Portfolio/Tech%20Skills/2560px-Amazon_Web_Services_Logo.svg_ajyaqk.png",
+    //     alt: "AWS-Logo",
+    // },
     
 ]
 
